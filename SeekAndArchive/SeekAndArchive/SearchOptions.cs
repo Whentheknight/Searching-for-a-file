@@ -18,7 +18,7 @@ namespace SeekAndArchive
         public void Search(string directory, string fileName)
         {
             searchTerm = fileName;
-            folder = directory;
+            
 
             var dirInfo = new System.IO.DirectoryInfo($@"{directory}");
             System.IO.FileInfo[] fileNames = dirInfo.GetFiles($"*{fileName}*");
@@ -38,12 +38,9 @@ namespace SeekAndArchive
             searchTime = DateTime.Now;
         }
 
-        public void WriteOut()
+        public void StartDirectorySetUp(string directory)
         {
-            foreach (System.IO.FileInfo file in fileInfos)
-            {
-                Console.WriteLine(file.Name);
-            }
+            folder = directory;
         }
 
         public void SaveToXML()
@@ -57,12 +54,14 @@ namespace SeekAndArchive
                 new XElement("Folder", $"{folder}"),
                 new XElement("Date", $"{searchTime}"),
                 new XElement("Results",
-                new XElement("Filenames", fileInfos.Select(x => new XElement("FileName",x.Name.Replace(x.Extension,""))),
+                new XElement("Filenames", fileInfos.Select(x => new XElement("FileName",x.Name.Replace(x.Extension,"")))),
                 new XElement("Extensions", fileInfos.Select(x => new XElement("Extension", x.Extension))),
                 new XElement("Paths", fileInfos.Select(x => new XElement("Path", x.FullName)))
-                ))));
+                )));
 
             doc.Save(filePath);
+
+            Console.WriteLine("The results where saved in the XML file.");
         }
     }
 }
