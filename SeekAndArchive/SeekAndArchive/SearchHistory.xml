@@ -1,3 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Searches>
+  <Search>
+    <SearchTerm>NordVPN.exe</SearchTerm>
+    <Folder>C:\Program Files\NordVPN</Folder>
+    <Date>2021. 08. 10. 19:32:09</Date>
+    <Results>
+      <Filenames>
+        <FileName>NordVPN</FileName>
+        <FileName>openvpn-nordvpn</FileName>
+        <FileName>openvpn-nordvpn</FileName>
+      </Filenames>
+      <Extensions>
+        <Extension>.exe</Extension>
+        <Extension>.exe</Extension>
+        <Extension>.exe</Extension>
+      </Extensions>
+      <Paths>
+        <Path>C:\Program Files\NordVPN\NordVPN.exe</Path>
+        <Path>C:\Program Files\NordVPN\6.32.15.0\Resources\Binaries\32bit\openvpn-nordvpn.exe</Path>
+        <Path>C:\Program Files\NordVPN\6.32.15.0\Resources\Binaries\64bit\openvpn-nordvpn.exe</Path>
+      </Paths>
+    </Results>
+  </Search>
+  <Search>
+    <SearchTerm>kited.exe</SearchTerm>
+    <Folder>C:\Program Files\Kite</Folder>
+    <Date>2021. 08. 10. 19:33:33</Date>
+    <Results>
+      <Filenames>
+        <FileName>kited</FileName>
+      </Filenames>
+      <Extensions>
+        <Extension>.exe</Extension>
+      </Extensions>
+      <Paths>
+        <Path>C:\Program Files\Kite\kited.exe</Path>
+      </Paths>
+    </Results>
+  </Search>
+  <Search>
+    <SearchTerm>KiteService.exe</SearchTerm>
+    <Folder>C:\Program Files\Kite</Folder>
+    <Date>2021. 08. 10. 19:39:42</Date>
+    <Results>
+      <Filenames>
+        <FileName>KiteService</FileName>
+        <FileName>KiteService.exe</FileName>
+      </Filenames>
+      <Extensions>
+        <Extension>.exe</Extension>
+        <Extension>.config</Extension>
+      </Extensions>
+      <Paths>
+        <Path>C:\Program Files\Kite\KiteService.exe</Path>
+        <Path>C:\Program Files\Kite\KiteService.exe.config</Path>
+      </Paths>
+    </Results>
+  </Search>
 </Searches>

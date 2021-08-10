@@ -2,7 +2,8 @@
   "profiles": {
     "SeekAndArchive": {
       "commandName": "Project",
-      "commandLineArgs": "\"NordVpn.Resources.resources.dll\" \"C:\\Program Files\\NordVPN\""
+      "remoteDebugEnabled": false,
+      "remoteDebugMachine": "\"NordVpn.Resources.resources.dll\" \"C:\\Program Files\\NordVPN\""
     }
   }
 }
