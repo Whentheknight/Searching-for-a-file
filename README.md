@@ -1,5 +1,7 @@
 Assignment: Searching for a file
+
 Task
+
 We would like to create an application which can search recursevily for files with a given name under a given folder. Using Visual Studio, create a new console application project. Name the project SeekAndArchive.
 
 Let the application have two command arguments: the first is the file we are looking for, and the second is the directory we must perform the recursive searching. Store this settings in a separated class named: SearchOptions
